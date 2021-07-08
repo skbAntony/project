@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+  <script src="js/main.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <title>Document</title>
+  <style type="text/css">
+  </style>
+</head>
+<body>
+  <div class="main">
+    <div class="main-content">
+      <div class="header">
+        <a href="#" class="logo"><img src="images/logo.jpg" alt="logo"></a>
+        <nav>
+          <a href="/demo/index2.html"><i class="fa fa-commenting" aria-hidden="true"></i>最新消息</a>
+          <a href="#"><i class="fa fa-cloud-upload" aria-hidden="true"></i>產品介紹</a>
+          <a href="#"><i class="fa fa-eyedropper" aria-hidden="true"></i>加盟專區</a>
+          <a href="#"><i class="fa fa-desktop" aria-hidden="true"></i>聯絡我們</a>
+          <a href="#"><i class="fa fa-gavel" aria-hidden="true"></i>門市地圖</a>
+        </nav>
+      </div>
+      <div class="container-fluid">
+        <div id="carousel-indicators" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner"></div>
+          <a class="carousel-control-prev" href="#carousel-indicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel-indicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <p class="marquee"><span>歡迎光臨，文字跑馬燈效果</span></p>
+      <div class="content">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">最新訊息</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">最新飲品</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">限時優惠</a>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                  <table>
+                    <tr><td>2021/07/05</td><td><a href="#">最新訊息的標題</a></td></tr>
+                    <tr><td>2021/07/02</td><td><a href="#">最新訊息的標題</a></td></tr>
+                    <tr><td>2021/06/30</td><td><a href="#">最新訊息的標題</a></td></tr>
+                    <tr><td>2021/06/25</td><td><a href="#">最新訊息的標題</a></td></tr>
+                    <tr><td>2021/06/20</td><td><a href="#">最新訊息的標題</a></td></tr>
+                    <tr><td>2021/06/15</td><td><a href="#">最新訊息的標題</a></td></tr>
+                    <tr><td>2021/06/13</td><td><a href="#">最新訊息的標題</a></td></tr>
+                    <tr><td>2021/06/13</td><td><a href="#">最新訊息的標題</a></td></tr>
+                    <tr><td>2021/06/13</td><td><a href="#">最新訊息的標題</a></td></tr>
+                  </table>
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                  <div class="row drink">
+                    <div class="col-4">
+                      <img src="https://picsum.photos/240/240?random=1" alt="">
+                      <div class="txt">
+                        <h4>飲品名稱</h4>
+                        <p>時間</p>
+                      </div>
+                     </div>
+                     <div class="col-4">
+                      <img src="https://picsum.photos/240/240?random=2" alt="">
+                      <div class="txt">
+                        <h4>飲品名稱</h4>
+                        <p>時間</p>
+                      </div>
+                     </div>
+                     <div class="col-4">
+                      <img src="https://picsum.photos/240/240?random=3" alt="">
+                      <div class="txt">
+                        <h4>飲品名稱</h4>
+                        <p>時間</p>
+                      </div>
+                     </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <h3>關於本店</h3>
+              <ul>
+                <li><a href="#">最新消息</a></li>
+                <li><a href="#">產品介紹</a></li>
+                <li><a href="#">門市地圖</a></li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <h3>聯絡我們</h3>
+              <ul>
+                <li><a href="#">客訴表單</a></li>
+                <li>上班時間：週一~週五</li>
+                <li>上午：09:00~12:00</li>
+                <li>下午：13:30~17:30</li>
+                <li>客服電話：081234567</li>
+              </ul>
+            </div>
+          </div>
+      </div>
+      <div class="copyright text-center">
+        copyright &copy; 2021
+      </div>
+    </div>
+  </div>
+  
+
+  <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+</body>
+</html>
